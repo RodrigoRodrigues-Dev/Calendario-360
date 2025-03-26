@@ -3,7 +3,9 @@ const colors = {
   black: '#000',
   grayishCyan: '#626363',
   white: '#fff',
-  whiteEdgar: '#ededed'
+  whiteEdgar: '#ededed',
+  vividGreen: '#10c72b',
+  crimsonRed: '#d42020'
 };
 
 export default colors;

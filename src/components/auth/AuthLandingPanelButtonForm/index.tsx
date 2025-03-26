@@ -2,12 +2,13 @@ import { AuthLandingPanelButtonFormStyled } from './styles';
 
 type Prop = {
   children: React.ReactNode;
+  onClick: () => void;
 };
 
-const AuthLandingPanelButton = (props: Prop) => {
+const AuthLandingPanelButton = ({ onClick, children }: Prop) => {
   return (
-    <AuthLandingPanelButtonFormStyled>
-      {props.children}
+    <AuthLandingPanelButtonFormStyled onClick={onClick}>
+      {children}
     </AuthLandingPanelButtonFormStyled>
   );
 };

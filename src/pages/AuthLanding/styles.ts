@@ -14,7 +14,7 @@ export const AuthLandingContainer = styled.div`
   padding: 5rem;
 
   width: 1120px;
-  height: 600px;
+  height: auto;
 
   box-shadow: 0px 0px 16px 14px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
@@ -25,6 +25,7 @@ export const AuthLandingContainer = styled.div`
     height: auto;
     display: flex;
     flex-direction: column;
+    gap: 17rem;
     margin: 5rem 0;
 
     position: relative;

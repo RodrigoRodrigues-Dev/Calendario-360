@@ -1,7 +1,7 @@
-import { AuthFooterStyled } from './styles';
+import { MinifiedFooterStyled } from './styles';
 
-const AuthFooter = () => (
-  <AuthFooterStyled>
+const MinifiedFooter = () => (
+  <MinifiedFooterStyled>
     <p>
       © 2025{' '}
       <a
@@ -13,7 +13,7 @@ const AuthFooter = () => (
       </a>
       . Todos os direitos reservados.
     </p>
-  </AuthFooterStyled>
+  </MinifiedFooterStyled>
 );
 
-export default AuthFooter;
+export default MinifiedFooter;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import colors from '../../../styles/colors';
+import colors from '../../styles/colors';
 
-export const AuthFooterStyled = styled.footer`
+export const MinifiedFooterStyled = styled.footer`
   position: absolute;
   bottom: 2%;
   left: 50%;

@@ -48,6 +48,7 @@ export const AuthLandingPrev = styled(
 
   font-size: 2.5rem;
   border-radius: 50%;
+  color: ${colors.black};
 
   &:hover {
     cursor: pointer;
